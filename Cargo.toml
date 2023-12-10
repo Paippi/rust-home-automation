@@ -6,10 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rust_ruuvi_db = { git = "https://github.com/Paippi/rust-ruuvi-db.git", version = "0.1.0" }
-rust_weather_information = { version = "0.1.0", path = "../rust_weather_information" }
-# rust_weather_information = { path = "../rust_weather_information", version = "0.1.0" }
-# rust_ruuvi_db = { path = "../rust_ruuvi_db", version = "0.1.0" }
+rust_weather_information = { version = "0.2.0", git = "https://github.com/Paippi/rust-weather-information"}
+ruuviscanner = { version = "0.2.0", git = "https://github.com/Paippi/ruuviscanner.git" }
 
-sqlx = "0.6.3"
 tokio = { version = "1.28.1", features = ["full"] }
